@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <title>KNH - Portfolio</title> 
+        <link rel="icon" type="image/gif" href="images/knhlogothumbblack.png">    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="css/dark.css" rel="stylesheet">
+        <link href="css/portstyle.css" rel ="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/hamburger.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/magic.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+    </head>
+
+
+    <body ontouchstart="">
+    
+    <!-- NAVBAR
+    ==================================================== 
+    -->
+
+    <div class="div navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand" > 
+                    <img id="logothumb" class="pull-left" src="images/logothumb.png">
+                    <img id="logothumb_sm" class="pull-left" src="images/logothumb_sm.png">
+                    <img id="logothumb_mini" class="pull-left" src="images/logothumb_mini.png">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+
+
+
+                    <li class="dropdown">
+                        <a style="color:#52D1DC" id="dLabel" data-toggle="dropdown" data-target="#" href="/page.html">
+                            WORK <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">AGENCY</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" href="kundeMcDonalds.html">McDONALD's</a></li>
+                              <li><a href="kundeVW.html">VOLKSWAGEN</a></li>
+                              <li><a href="kundeNivea.html">NIVEA</a></li>
+                              <li><a href="kundeUBB.html">UBB</a></li>
+                              <li><a href="kundeTelekom.html">TELEKOM</a></li>
+                            </ul>
+                          </li>
+
+
+
+                          <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">UNIVERSITY</a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" href="appDesign.html">APP DESIGN</a></li>
+                              <li><a href="spacialEditing.html">SPACIAL EDITING</a></li>
+                              <li><a href="imageEditing.html">IMAGE EDITING</a></li>
+                              <li><a href="lettering.html">LETTERING</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </li>
+
+
+
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="#contact" data-toggle="modal">CONTACT</a></li>
+                    <li><a href="impressum.html">IMPRESSUM</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <header id="mobileMenu">
+
+        <div class="bg-cover" class="none">
+        </div>
+
+        <a class="hamburger-shell">
+
+            <div class="hamb top"></div>
+            <div class="hamb middle"></div>
+            <div class="menu-name">MENU</div>
+        
+
+            <nav class="nav">
+                <div class="nav__container">
+
+            <ul id="menu">
+                    <a href="index.html"> <li>HOME</li></a>
+                    <a href="about.html"> <li>ABOUT</li></a>
+                    <ul id="accordion" class="accordion">
+                      <li>
+                        <div class="link"><i class="fa fa-chevron-down"></i>WORK</div>
+                        <ul class="submenu">
+                          <li><a href="kundeMcDonalds.html">McDONALD's</a></li>
+                          <li><a href="kundeVW.html">VOLKSWAGEN</a></li>
+                          <li><a href="kundeNivea.html">NIVEA</a></li>
+                          <li><a href="kundeUBB.html">UBB</a></li>
+                          <li><a href="kundeTelekom.html">TELEKOM</a></li>
+                          <li><a href="appDesign.html">APP DESIGN</a></li>
+                          <li><a href="spacialEditing.html">SPACIAL EDITING</a></li>
+                          <li><a href="imageEditing.html">IMAGE EDITING</a></li>
+                          <li><a href="lettering.html">LETTERING</a></li>
+                        </ul>
+                      </li>
+                    </ul>                    
+                    <a href="cv.html"> <li>CV</li></a>
+                    <a href="impressum.html"> <li>IMPRESSUM</li></a>
+            </ul>
+
+            </div>
+        </nav>
+        </a>
+          
+    </header>
+
+
+    <!--CAROUSEL
+    ==================================================== -->
+
+
+    <div class="container">
+        
+
+        <div class="row">
+            <div>
+                <h2 class="textHeadlineLeft"> McDONALD'S FACEBOOK</h2>
+            </div>
+            <div class="col-md-8 noPadLeft">
+                            <figure class="noScale">
+                                <button class="w3-button w3-display-left" style="background-color:#eeeeee" onclick="plusDivs(-1, 0)">&#10094;</button>
+                                <button class="w3-button w3-display-right" style="background-color:#eeeeee" onclick="plusDivs(1, 0)">&#10095;</button>
+                                <div class="imageBox">
+                                    <img class="imageHover mySlides1 w3-animate-left contentImage" src="imagesSmall/151214_StarWarsglowLaser.jpg">
+                                    <a target="_blank" href="https://www.facebook.com/mcd/photos/a.440060877587.202661.296270482587/10154819901822588/?type=3&theater">
+                                        <div class="overlay">
+                                            <div class="imageHoverText">
+                                                Star Wars Kinofilm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="imageBox">
+                                    <img class="imageHover mySlides1 w3-animate-left contentImage" src="imagesSmall/160311_Shampoo_4.jpg">
+                                    <a target="_blank" href="https://www.facebook.com/mcd/photos/a.440060877587.202661.296270482587/10155071010427588/?type=3&theater">
+                                        <div class="overlay">
+                                            <div class="imageHoverText">
+                                                Aprilscherz
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="imageBox">
+                                    <img class="imageHover mySlides1 w3-animate-left contentImage" src="imagesSmall/170410_Wraps.jpg">
+                                    <a target="_blank" href="https://www.facebook.com/mcd/photos/a.440060877587.202661.296270482587/10156532997512588/?type=3&theater">
+                                        <div class="overlay">
+                                            <div class="imageHoverText">
+                                                Wrap Promo
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="imageBox">
+                                    <img class="imageHover mySlides1 w3-animate-left contentImage" src="imagesSmall/151019_Delorean.jpg">
+                                    <a target="_blank" href="https://www.facebook.com/mcd/photos/a.440060877587.202661.296270482587/10154712348282588/?type=3&theater">
+                                        <div class="overlay">
+                                            <div class="imageHoverText">
+                                                Back to the Future
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="imageBox">
+                                    <img class="imageHover mySlides1 w3-animate-left contentImage" src="imagesSmall/160823_AbbeyRoad.jpg">
+                                    <a target="_blank" href="https://www.facebook.com/mcd/photos/a.440060877587.202661.296270482587/10155599310952588/?type=3&theater">
+                                        <div class="overlay">
+                                            <div class="imageHoverText">
+                                                Illustration Burger Day UK
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- <h3>Big Rösti Promo Post Januar 2017</h3> -->
+                <p>Die McDonald’s Facebook Seite vermittelt Tag für Tag
+                    Kundennähe zu ihren über 74 Millionen Abonnenten.
+                    Hierzu werden zahlreiche Visuals angefertigt, zu Produktankündigungen
+                    oder Promotions, aber auch zu alltäglichen
+                    Anlässen aus aller Welt. <br>
+                    Die Reichweite reicht bis zu knapp 4.000.000 und erzielte bis zu 20.000 Reaktionen.</p>
+
+                <h4>CREDITS</h4>
+
+                <ul>
+                   <strong> Kunde: </strong> <br> McDonald's Deutschland
+                </ul>
+                <ul>
+                    <strong>Agentur:</strong> <br> SALT WORKS GmbH
+                </ul>
+                <ul>
+                    <strong>Art Direction:</strong> <br> Kevin Thoma, Mareike Kalhöfer Köchling, Eva-Maria Reiss
+                </ul>
+                <ul>
+                    <strong>Creative Direction:</strong> <br> Lothar Hackethal
+                </ul>
+                <ul>
+                    <strong>Design/Umsetzung:</strong> <br> Korbinian Heimerl
+                </ul>
+                <ul>
+                    <strong>Beratung & Redaktion:</strong> <br> Maurice Hollmann, Daniel Berg, Hanno Mildenberger
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="row">
+            
+            <div class="col-md-8 noPadLeft">    
+                <div>
+                <h2 class="textHeadlineLeft"> McDONALD'S FACEBOOK</h2>
+                </div>
+                
+                <ul class="photo-grid">
+                    <li>
+                        
+                            <figure>
+                                <img class="noScale" src="images/verpackungBurger.gif" height="800" width="800" alt="BigMac Verpackung">
+                                
+                            </figure>
+                        
+                    </li>
+                </ul>
+            </div>
+
+                
+            
+
+            <div class="col-md-4">
+                <!-- <h3>Big Rösti Promo Post Januar 2017</h3> -->
+                <p>Bei nebenstehendem GIF wurde eine McDonald’s Burgerverpackung
+                    aus verschiedenen Perspektiven abgefilmt.
+                    Mit einer am Deckel befestigten Schnur als Öffnungsmechanismus
+                    wurde der obere Teil der Packung bewegt.
+                    In der Bewegtbildretusche wurde der Mechanismus
+                    entfernt und ein strahlendes Leuchten in der Mitte der
+                    Burgerpackung installiert.
+                    Durch die minimale Öffnung des Deckels entsteht beim
+                    Loopen des GIFs ein Eindruck nie endender Spannung,
+                    was sich tatsächlich in der Verpackung verbirgt.
+                </p>
+
+                <h4>CREDITS</h4>
+
+                <ul>
+                   <strong> Kunde: </strong> <br> McDonald’s Deutschland
+                </ul>
+                <ul>
+                    <strong>Agentur:</strong> <br> SALT WORKS GmbH
+                </ul>
+                <ul>
+                    <strong>Art Direction:</strong> <br> Kevin Thoma
+                </ul>
+                <ul>
+                    <strong>Konzeption:</strong> <br> Korbinian Heimerl
+                </ul>
+                <ul>
+                    <strong>Design/Umsetzung:</strong> <br> Korbinian Heimerl
+                </ul>
+                <ul>
+                    <strong>Beratung & Redaktion:</strong> <br> Hanno Mildenberger
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h2 class="textHeadlineLeft"> McDONALD'S McBOOK PACKAGING</h2>
+            </div>
+
+
+
+
+
+            <div class="col-md-8 noPadLeft">
+                <div id="gallery">
+                            <figure class="noScale">
+                                <button class="w3-button w3-display-left" style="background-color:#eeeeee" onclick="plusDivs(-1, 1)">&#10094;</button>
+                                <button class="w3-button w3-display-right" style="background-color:#eeeeee" onclick="plusDivs(1, 1)">&#10095;</button>
+
+                                <a href="images/McBookVerpackung.jpg" data-lightbox="images/Picture1" data-title=""><img class="mySlides2 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McBookVerpackung.jpg"></a>
+
+                                <a href="images/IMG_7005.jpg" data-lightbox="images/Picture1" data-title=""><img class="mySlides2 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/IMG_7005.jpg"></a>
+
+                                <a href="images/IMG_7006.jpg" data-lightbox="images/Picture1" data-title=""><img class="mySlides2 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/IMG_7006.jpg"></a>
+
+                                <a href="images/IMG_7008.jpg" data-lightbox="images/Picture1" data-title=""><img class="mySlides2 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/IMG_7008.jpg"></a>       
+                            </figure>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="col-md-4">
+                <!-- <h3>Big Rösti Promo Post Januar 2017</h3> -->
+                <p>Auflage der Verpackung: 750 Stück</p>
+                <p>
+                    McDonald’s Deutschland produzierte 2017 das
+                    McBook - ein Buch voll mit humorvollen Fakten über das
+                    Unternehmen.
+                    Exklusiv für das diesjährige Franchisenehmer Meeting
+                    wurde eine hochwertige Verpackung angefertigt, um 750
+                    Exemplare des Buches feierlich mitsamt Verpackung an
+                    Franchisenehmer, Influencer und Journalisten zu überreichen.
+                    Das Packaging-Design wurde hierbei an das implizierte
+                    Wortspiel angelehnt.
+                    Im Handel wird das Buch im Oktober 2017 erscheinen.</p>
+
+                <h4>CREDITS</h4>
+
+                <ul>
+                   <strong> Kunde: </strong> <br> McDonald's Deutschland
+                </ul>
+                <ul>
+                    <strong>Agentur:</strong> <br> SALT WORKS GmbH
+                </ul>
+                <ul>
+                    <strong>Art Direction:</strong> <br> Eva-Maria Reiss
+                </ul>
+                <ul>
+                    <strong>Creative Direction:</strong> <br> Lothar Hackethal
+                </ul>
+                <ul>
+                    <strong>Umsetzung/Design:</strong> <br> Korbinian Heimerl
+                </ul>
+                <ul>
+                    <strong>Beratung:</strong> <br> Korbinian Semmelmann
+                </ul>
+                <ul>
+                    <strong>Produktion:</strong> <br> McDonald's Deutschland
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h2 class="textHeadlineLeft"> McDONALD'S FUSSBALL ESKORTE</h2>
+            </div>
+            <div class="col-md-8 noPadLeft">
+                <div id="gallery">
+                            <figure class="noScale">
+                                <button class="w3-button w3-display-left" style="background-color:#eeeeee" onclick="plusDivs(-1, 2)">&#10094;</button>
+                                <button class="w3-button w3-display-right" style="background-color:#eeeeee" onclick="plusDivs(1, 2)">&#10095;</button>
+
+                                <a href="images/McD_EskorteScreen3.jpg" data-lightbox="images/Picture2" data-title=""><img class="mySlides3 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McD_EskorteScreen3.jpg"></a>
+
+                                <a href="images/McD_EskorteScreen4.jpg" data-lightbox="images/Picture2" data-title=""><img class="mySlides3 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McD_EskorteScreen4.jpg"></a>
+
+                                <a href="images/McD_Eskorte_RollUp2.jpg" data-lightbox="images/Picture2" data-title=""><img class="mySlides3 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McD_Eskorte_RollUp2.jpg"></a>
+
+                                <a href="images/McD_Eskorte_Flyer_3.jpg" data-lightbox="images/Picture2" data-title=""><img class="mySlides3 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McD_Eskorte_Flyer_3.jpg"></a>
+
+                                <a href="images/McD_Eskorte_Flyer_4.jpg" data-lightbox="images/Picture2" data-title=""><img class="mySlides3 w3-animate-left contentImage img-bar-galerie" src="imagesSmall/McD_Eskorte_Flyer_4.jpg"></a>        
+                            </figure>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- <h3>Big Rösti Promo Post Januar 2017</h3> -->
+                <p>McDonald’s ist Partner des Weltfußballverbands FIFA und
+                    übernimmt seit Jahren eine große Rolle bei der Fußballeskorte.
+                    Diese ermöglicht es Kindern mit ihren Vorbildern
+                    und Fußballstars Hand in Hand gemeinsam auf das
+                    Spielfeld zu laufen.
+                    Auf der deutschen Website des Unternehmens wurde
+                    hierfür zur Europameisterschaft 2016 eine eigene Rubrik
+                    eröffnet, für die zahlreiche Visuals angefertigt wurden.
+                    Nach den Shootings mit Mark Forster wurden Headerbilder,
+                    Contentimages und Video-Thumbnails kreirt und dem
+                    internationalen Look der Kampagne angepasst.</p>
+
+                <h4>CREDITS</h4>
+
+                <ul>
+                   <strong> Kunde: </strong> <br> McDonald's Deutschland
+                </ul>
+                <ul>
+                    <strong>Agentur:</strong> <br> SALT WORKS GmbH
+                </ul>
+                <ul>
+                    <strong>Art Direction:</strong> <br> Kevin Thoma
+                </ul>
+                <ul>
+                    <strong>Umsetzung/Design:</strong> <br> Korbinian Heimerl
+                </ul>
+                <ul>
+                    <strong>Eventmanagement:</strong> <br> Julia Eberlein
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        
+    </div>
+
+
+
+
+
+
+<!-- FOOTER
+    ===================================================== -->
+
+    <div class="container">
+        <div class="row" id="newFooter">        
+        </div>
+
+        <div class="row">
+            <p>
+                © 2018 Korbinian Nepomuk Heimerl
+            </p>
+        </div>
+    </div>
+
+
+<!-- CONTACT
+    ===================================================== -->
+
+ <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+                        <div style="margin-top:200px">
+            <div class="container">
+                <div class="panel panel-default" style="margin:0 auto;width:500px">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Contact Me</h2>
+                         <p> Korbinian Heimerl<br>
+                            Peißenbergstraße 3a<br>
+                            86163 Augsburg<br>
+                            Telefon: +49 160 936 047 67<br>
+                            E-Mail: korbinian.heimerl@hs-augsburg.de<br>
+                        </p>
+                    </div>
+                    <div class="panel-body">
+                        <form name="contactform" method="post" action="http://www.hs-augsburg.de/~nepi/mailer.php" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="inputName" class="col-lg-2 control-label">Name</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <button type="submit" class="btn btn-default">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/darken.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/imgSlider.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/dropdownSlide.js"></script>
+    <script src="js/accordion.js"></script>
+  </body>
+</html>
+
+
+
+
